@@ -1,7 +1,7 @@
 filetype plugin indent on
 set tabstop=4
 set mouse=a
-set bs=2
+set bs=1
 set autoindent
 set smartindent
 set clipboard=unnamed
@@ -51,3 +51,6 @@ set noswapfile
 
 " Set explorer
 noremap <Leader>f :Explore<CR>
+
+" avoid Esc key
+imap jj <Esc>
